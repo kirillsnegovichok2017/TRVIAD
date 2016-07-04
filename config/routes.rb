@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'account_activations/edit'
+
   get 'sessions/new'
 
   # You can have the root of your site routed with "root"
@@ -11,6 +13,7 @@ Rails.application.routes.draw do
   post 'login'   =>    'sessions#create'
   delete 'logout'=>    'sessions#destroy'
   resources :users
+  resources :account_activations, only: [:edit]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
