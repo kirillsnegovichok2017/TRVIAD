@@ -1,12 +1,4 @@
 Rails.application.routes.draw do
-  get 'password_resets/new'
-
-  get 'password_resets/edit'
-
-  get 'account_activations/edit'
-
-  get 'sessions/new'
-
   # You can have the root of your site routed with "root"
   root                 'static_pages#home'
   get 'help'     =>    'static_pages#help'
