@@ -311,3 +311,23 @@ body {
 .thick-line {
   height: 3px;
 }
+
+/* background image */
+
+.custom-image {
+  background-image: url(http://lorempixel.com/1200/400);
+  background-color: #c7b39b; /* Цвет фона */
+}
+
+.transparent75 {
+  filter: alpha(Opacity=75); /* Полупрозрачность для IE */
+  opacity: 0.75; /* Полупрозрачность для других браузеров */
+}
+.transparent50 {
+  filter: alpha(Opacity=50);
+  opacity: 0.5;
+}
+.transparent25 {
+  filter: alpha(Opacity=25);
+  opacity: 0.25;
+}
