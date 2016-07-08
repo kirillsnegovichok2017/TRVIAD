@@ -313,12 +313,12 @@ body {
 
 .custom-image {
   background-image: url(http://lorempixel.com/1200/400);
-  background-color: #c7b39b; /* Цвет фона */
+  background-color: #c7b39b;
 }
 
 .transparent75 {
-  filter: alpha(Opacity=75); /* Полупрозрачность для IE */
-  opacity: 0.75; /* Полупрозрачность для других браузеров */
+  filter: alpha(Opacity=75);
+  opacity: 0.75;
 }
 .transparent50 {
   filter: alpha(Opacity=50);
@@ -327,4 +327,13 @@ body {
 .transparent25 {
   filter: alpha(Opacity=25);
   opacity: 0.25;
+}
+
+
+.hidden {
+  display:none;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px #eeffde, 0 0 1em #f7f6ff;
 }
