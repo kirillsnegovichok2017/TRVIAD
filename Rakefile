@@ -4,4 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 require 'ci/reporter/rake/test_unit'
 
+task :test => 'ci:setup:testunit'
+
 Rails.application.load_tasks
