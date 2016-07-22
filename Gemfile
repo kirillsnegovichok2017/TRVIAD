@@ -33,6 +33,8 @@ gem 'rubocop'
 gem 'rubocop-checkstyle_formatter', require: false
 
 gem 'ci_reporter'
+gem 'ci_reporter_minitest'
+gem 'ci_reporter_test_unit'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
